@@ -46,12 +46,12 @@
 
 + (void)throwString:(NSString*)s
 {
-	@throw [NSException exceptionWithName:s reason:s userInfo:nil];
+    @throw [NSException exceptionWithName:s reason:s userInfo:nil];
 }
 
 + (void)throwException:(NSException*)e
 {
-	@throw e;
+    @throw e;
 }
 
 @end
