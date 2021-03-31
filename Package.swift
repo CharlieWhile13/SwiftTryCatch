@@ -22,8 +22,6 @@ let package = Package(
             name: "SwiftTryCatch",
             dependencies: [],
             path: "SwiftTryCatch",
-            cSettings: [
-                .headerSearchPath("Private")
-            ]),
+            sources: ["SwiftTryCatch.m", "include/SwiftTryCatch.h"]),
     ]
 )
